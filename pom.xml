@@ -19,7 +19,7 @@
     <modules>
         <module>spring-oauth2-client</module>
         <module>spring-oauth2-server</module>
-        <module>spring-oauth2-userservice</module>
+        <module>spring-oauth2-resources</module>
     </modules>
 
     <properties>

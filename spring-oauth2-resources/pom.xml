@@ -9,7 +9,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>spring-oauth2-userservice</artifactId>
+    <artifactId>spring-oauth2-resources</artifactId>
 
     <dependencies>
         <dependency>
