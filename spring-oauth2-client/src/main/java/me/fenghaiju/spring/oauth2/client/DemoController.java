@@ -1,4 +1,4 @@
-package me.josephzhu.springsecurity101.cloud.auth.client;
+package me.fenghaiju.spring.oauth2.client;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

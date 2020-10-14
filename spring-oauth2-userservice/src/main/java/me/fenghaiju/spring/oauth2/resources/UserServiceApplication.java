@@ -1,4 +1,4 @@
-package me.josephzhu.springsecurity101.cloud.oauth2.userservice;
+package me.fenghaiju.spring.oauth2.resources;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
