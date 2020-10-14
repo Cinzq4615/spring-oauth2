@@ -46,14 +46,15 @@ public class OAuth2ServerConfiguration extends AuthorizationServerConfigurerAdap
     }
 
     /**
-     * 这里干了两个事情，首先打开了验证Token的访问权限（以便之后我们演示）。
-     * 然后允许ClientSecret明文方式保存并且可以通过表单提交（而不仅仅是Basic Auth方式提交），之后会演示到这个。
+     * (1)首先打开了验证Token的访问权限（以便之后我们演示）。
+     * (2)然后允许ClientSecret明文方式保存并且可以通过表单提交（而不仅仅是Basic Auth方式提交），之后会演示到这个。
      * @param security
      * @throws Exception
      */
     @Override
     public void configure(AuthorizationServerSecurityConfigurer security) throws Exception {
-        security.checkTokenAccess("permitAll()").allowFormAuthenticationForClients().passwordEncoder(NoOpPasswordEncoder.getInstance());
+        security.checkTokenAccess("permitAll()").allowFormAuthenticationForClients()
+                .passwordEncoder(NoOpPasswordEncoder.getInstance());
     }
 
     /**
