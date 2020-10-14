@@ -36,7 +36,7 @@ public class OAuth2ServerConfiguration extends AuthorizationServerConfigurerAdap
 
     /**
      * 我们配置了使用数据库来维护客户端信息。虽然在各种Demo中我们经常看到的是在内存中维护客户端信息，通过配置直接写死在这里。
-     * 但是，对于实际的应用我们一般都会用数据库来维护这个信息，甚至还会建立一套工作流来允许客户端自己申请ClientID。
+     * 但是，对于实际的应用我们一般都会用数据库来维护这个信息，甚至还会建立一套工作流来允许客户端自己申请ClientID clientSecret。
      * @param clients
      * @throws Exception
      */
