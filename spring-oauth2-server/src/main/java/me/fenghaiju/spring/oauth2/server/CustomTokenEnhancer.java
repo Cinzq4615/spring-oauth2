@@ -1,4 +1,4 @@
-package me.josephzhu.springsecurity101.cloud.oauth2.server;
+package me.fenghaiju.spring.oauth2.server;
 
 import org.springframework.security.core.Authentication;
 import org.springframework.security.oauth2.common.DefaultOAuth2AccessToken;

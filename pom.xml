@@ -55,4 +55,26 @@
             </plugin>
         </plugins>
     </build>
+    <repositories>
+        <repository>
+            <id>ctsp</id>
+            <name>ctsp</name>
+            <url>http://nexus.ctsp.kedacom.com/content/groups/public/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+        <repository>
+            <id>alibab</id>
+            <name>alibaba</name>
+            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+        </repository>
+        <repository>
+            <id>spring-releases</id>
+            <url>https://repo.spring.io/libs-release</url>
+        </repository>
+    </repositories>
 </project>

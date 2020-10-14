@@ -1,4 +1,4 @@
-package me.josephzhu.springsecurity101.cloud.oauth2.server;
+package me.fenghaiju.spring.oauth2.server;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -129,14 +129,4 @@ public class OAuth2ServerConfiguration extends AuthorizationServerConfigurerAdap
         return converter;
     }
 
-    /**
-     * 配置登录页面的视图信息（其实可以独立一个配置类更规范）
-     */
-    @Configuration
-    static class MvcConfig implements WebMvcConfigurer {
-        @Override
-        public void addViewControllers(ViewControllerRegistry registry) {
-            registry.addViewController("login").setViewName("login");
-        }
-    }
 }

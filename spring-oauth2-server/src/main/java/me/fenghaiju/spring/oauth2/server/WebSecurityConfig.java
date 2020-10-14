@@ -1,4 +1,4 @@
-package me.josephzhu.springsecurity101.cloud.oauth2.server;
+package me.fenghaiju.spring.oauth2.server;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;

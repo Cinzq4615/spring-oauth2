@@ -5,6 +5,6 @@ spring:
   application:
     name: oauth2-server
   datasource:
-    url: jdbc:mysql://localhost:6657/oauth?useSSL=false
+    url: jdbc:mysql://127.0.0.1:3306/oauth2?useUnicode=true&characterEncoding=utf-8&serverTimezone=UTC&useSSL=false
     username: root
-    password: kIo9u7Oi0eg
+    password: 123456
